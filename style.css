@@ -1,0 +1,136 @@
+
+
+
+body, div, header, nav, input, button, a, p, h1, h2, h3, h4, h5, h6, i, img, footer, form, ul, li {
+    margin: 0;padding: 0;border:0; font-family:roboto; max-width: 100%;
+}
+
+.container {
+	width: 60%;
+	margin-left: 20%;
+}
+
+header img {
+	margin: auto;
+	width: 100%;
+	display: block;
+}
+
+.logga { 
+	position: absolute;
+	margin: -10% 10%;
+	width: 6%;
+ }
+
+.GrasklippareImg {
+	width: 20%;
+	margin-left: 40%;
+	margin-top: 5%;
+	margin-bottom: 5%
+
+}
+
+.grastext {
+	margin-left: 43%
+}
+
+#bild {
+	box-shadow: 10px 10px 5px #888888;
+	margin-bottom: 1%;
+}
+
+#bilden {
+	margin-top: 5%;
+	box-shadow: 10px 10px 5px #888888;
+	margin-bottom: 1%;
+}
+
+
+header ul {
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	background-color: #74A316;
+	padding: 20px 0;
+}
+
+
+ul {
+	list-style: none;
+}
+
+
+ul a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 20px 50px;
+}
+
+
+
+ul a:hover {
+	background-color: #5C8211;
+}
+
+
+h1 {
+	font-family: "Roboto", sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+
+h2 {
+	text-align: center;
+	margin-top: 5%;
+}
+
+
+p {
+	text-align: left;
+	list-style: none;
+}
+
+
+.rubrik {
+	margin-top: 5%;
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-top: 5%;
+	background-color: #74A316; 
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+#FooterP {
+	text-align: center;
+	color: #FFF
+}
+
+.activeTab {
+	color: #000
+}
+
+@media screen and (max-width: 815px) {
+    li a {
+       display: block;
+    }
+	.logga { 
+	position: absolute;
+	margin: -30% 40%;
+	width: 20%;
+ }
+
+ .ProgramInfoImg {
+	width: 60%;
+	margin-left: 25%;
+	margin-top: 5%;
+}
+
+.grastext {
+	margin-left: 34%
+}
